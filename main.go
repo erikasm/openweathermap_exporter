@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	listenAddress = flag.String("web.listen", ":9120", "Address on which to expose metrics and web interface.")
+	listenAddress = flag.String("web.listen", ":9520", "Address on which to expose metrics and web interface.")
 	apiKey        = flag.String("apikey", "", "OpenWeatherMap API key")
 	location      = flag.String("location", "Dresden,DE", "Geografical location for requested data")
 )
